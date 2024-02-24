@@ -58,7 +58,7 @@ class Call(PyTgCalls):
         )
         self.one = PyTgCalls(
             self.userbot1,
-            cache_duration=100,
+            cache_duration=300,
         )
         self.userbot2 = Client(
             name="AviaxAss2",
@@ -68,7 +68,7 @@ class Call(PyTgCalls):
         )
         self.two = PyTgCalls(
             self.userbot2,
-            cache_duration=100,
+            cache_duration=300,
         )
         self.userbot3 = Client(
             name="AviaxAss3",
