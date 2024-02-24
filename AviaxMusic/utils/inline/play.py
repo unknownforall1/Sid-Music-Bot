@@ -60,10 +60,10 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
-        [InlineKeyboardButton(text="Join Our Chatting Group", url="https://t.me/love_life_si")],
+        [InlineKeyboardButton(text=" UPDATE", url="https://t.me/BOTXHUB"),
+         InlineKeyboardButton(text="SUPPORT GRP", url="https://t.me/LOVE_LIFE_SI")],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
-         InlineKeyboardButton(text="𝐇𝐞𝐥𝐩", url="https://t.me/SiD_Musicbot?start=help"),
-         InlineKeyboardButton(text="𝐀𝐝𝐝 𝐌𝐞", url="https://t.me/Sid_musicBot?startgroup=true")]
+         InlineKeyboardButton(text="ADD ME BABE", url="https://t.me/Sid_musicBot?startgroup=true")]
     ]
     return buttons
 
